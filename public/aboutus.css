@@ -1,0 +1,238 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+  nav{
+    background: #000000;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+      margin-right: 750px;
+      box-align:left;
+
+  }
+  nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+    font-weight: 700;
+    font-size: x-large;
+    color: #fffb00;
+  }
+  nav ul div.items a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 12px;
+    color: #fffb00;
+  }
+  nav ul div.items a:hover{
+    color: rgb(255, 255, 255);
+  }
+  nav ul .icon{
+    height: 20px;
+    width: 240px;
+    display: flex;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  nav ul .icon span{
+    color: #ffe600;
+    font-size: 20px;
+  }
+p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap" rel="stylesheet">
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Alegraya', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(255, 255, 255);
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#000000;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #fffb00;
+	padding:12px 40px;
+	text-decoration: none;
+	color:rgb(0, 0, 0);
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #000000;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#000000;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#ffe600;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body{
+	background: #fcfcfc;
+	font-family: sans-serif;
+  }
+  footer{
+	position: absolute;
+	bottom: 5;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100%;
+	padding-top: 40px;
+	color: rgb(255, 238, 0);
+  }
+  .footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+  }
+  .footer-content h3{
+	font-size: 2.1rem;
+	font-weight: bolder;
+	text-transform: capitalize;
+	line-height: 3rem;
+  }
+  .footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 20px;
+	color: #ffffff;
+  }
+  .footer-links{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+  }
+  
+  .footer-links li{
+	margin: 0 10px;
+  }
+  
+  .footer-links a{
+	text-decoration: none;
+	color: rgb(255, 238, 0);
+	padding: 5px;
+  }
+  
+  .footer-links a i{
+	font-size: 1.1rem;
+	width: 20px;
+	transition: color .4s ease;
+  }
+  
+  .footer-links a:hover i{
+	color: aqua;
+  }
+
+

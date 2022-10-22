@@ -1,0 +1,154 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+  nav{
+    background: #000000;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+      margin-right: 750px;
+      box-align:left;
+
+  }
+  nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+    font-weight: 700;
+    font-size: x-large;
+    color: #fffb00;
+  }
+  nav ul div.items a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 12px;
+    color: #fffb00;
+  }
+  nav ul div.items a:hover{
+    color: rgb(255, 255, 255);
+  }
+  nav ul .icon{
+    height: 20px;
+    width: 240px;
+    display: flex;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  nav ul .icon span{
+    color: #ffe600;
+    font-size: 20px;
+  }
+p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#searchbar{
+    margin-left: 35%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 700px;
+  }
+
+.shoes{
+  color: #000000;
+  display: list-item;    
+  text-decoration: none;
+ } 
+ shoe-list{
+   text-decoration: none;
+   color: #000000;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: rgb(255, 238, 0);
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .footer-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .footer-links li{
+    margin: 0 10px;
+  }
+  
+  .footer-links a{
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+    padding: 5px;
+  }
+  
+  .footer-links a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+  }
+  
+  .footer-links a:hover i{
+    color: aqua;
+  }
